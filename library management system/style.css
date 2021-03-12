@@ -1,0 +1,142 @@
+body{
+    background-color: gainsboro;
+}
+
+.left{
+    margin-top: 60px;
+    padding: 20px 0px 0px 100px;
+   
+ 
+    
+}
+
+.userDashboardBody{
+	 background-image: url(img/front_backgroun.jpg);
+	 background-position: center;
+	 background-size: cover;
+	 background-repeat: no-repeat;
+
+}
+
+.adminDashboardBody{
+
+	background-image: url(./img/front_backgroun.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+.full-row{
+    padding: 20px;
+}
+
+.form-right{
+    
+    
+    border-radius: 20px;
+    padding: 50px;
+    background-color: white;
+    
+
+}
+.form-right-login{
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.userdash{
+    padding-top: 50px;
+	
+
+}
+.userdash2{
+    padding-top: 50px;
+	padding-bottom: 200px;
+
+}
+
+/* THis is for contract from css*/
+
+.form-contro {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-contro label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-contro input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-contro input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-contro.success input {
+	border-color: #2ecc71;
+}
+
+.form-contro.error input {
+	border-color: #e74c3c;
+}
+
+
+.form-contro textarea:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-contro.success textarea {
+	border-color: #2ecc71;
+}
+
+.form-contro.error textarea {
+	border-color: #e74c3c;
+}
+
+
+
+
+.form-contro small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-contro.error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: #8e44ad;
+	border: 2px solid #8e44ad;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+
+
